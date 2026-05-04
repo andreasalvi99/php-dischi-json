@@ -57,7 +57,7 @@ $disks = json_decode($json_text, true);
         <hr>
 
         <div class="form-control mt-3">
-            <form action="" method="POST">
+            <form action="./server.php" method="POST">
                 <label class="form-label" for="title">Titolo</label>
                 <input type="text" class="form-control mb-3" name="title" id="title">
                 <label class="form-label" for="artist">Artista</label>
