@@ -36,7 +36,7 @@ $disks = json_decode($json_text, true);
 
         echo '<div class="col">
                 <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top  alt="...">
+                <img src=' . $disk['img'] . ' class="card-img-top  alt="...">
                 <div class="card-body">
                     <p class="card-text">' . $disk['titolo'] . '</p>
                      <p class="card-text">' . $disk['artista'] . '</p>
