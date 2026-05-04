@@ -29,17 +29,24 @@ var_dump($disks);
 
 <hr>
 
-<ul>
+<div class="row row-cols-3 text-center gap-3">
 <?php
 
     foreach($disks as $disk) {
-        foreach($disk as $key => $value) {
-        echo "<li>$key: $value</li>";
-        }
+
+        echo '<div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top  alt="...">
+        <div class="card-body">
+        <p class="card-text">' . $disk['titolo'] . '</p>
+         <p class="card-text">' . $disk['artista'] . '</p>
+          <p class="card-text">' . $disk['anno'] . '</p>
+        </div>
+        </div>';
+  
 };
 
 ?>
-</ul>
+</div>
 
 </div>
 </section>
