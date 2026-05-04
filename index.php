@@ -8,7 +8,7 @@ $json_text = file_get_contents('disks.json');
 //^ Decodifico in PHP
 $disks = json_decode($json_text, true);
 
-var_dump($disks);
+// var_dump($disks);
 ?>
 
 <!DOCTYPE html>
@@ -29,19 +29,21 @@ var_dump($disks);
 
 <hr>
 
-<div class="row row-cols-3 text-center gap-3">
+<div class="row row-cols-4 gy-5 text-center">
 <?php
 
     foreach($disks as $disk) {
 
-        echo '<div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top  alt="...">
-        <div class="card-body">
-        <p class="card-text">' . $disk['titolo'] . '</p>
-         <p class="card-text">' . $disk['artista'] . '</p>
-          <p class="card-text">' . $disk['anno'] . '</p>
-        </div>
-        </div>';
+        echo '<div class="col">
+                <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top  alt="...">
+                <div class="card-body">
+                    <p class="card-text">' . $disk['titolo'] . '</p>
+                     <p class="card-text">' . $disk['artista'] . '</p>
+                    <p class="card-text">' . $disk['anno'] . '</p>
+                </div>
+                </div>
+            </div>';
   
 };
 
