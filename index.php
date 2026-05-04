@@ -58,12 +58,16 @@ $disks = json_decode($json_text, true);
 
         <div class="form-control mt-3">
             <form action="" method="POST">
-                <input type="text" class="form-control my-3" name="artist">
-                <input type="text" class="form-control my-3">
-                <input type="text" class="form-control my-3">
-                <input type="number" class="form-control my-3">
+                <label class="form-label" for="title">Titolo</label>
+                <input type="text" class="form-control mb-3" name="title" id="title">
+                <label class="form-label" for="artist">Artista</label>
+                <input type="text" class="form-control mb-3" name="artist" id="artist">
+                <label class="form-label" for="genre">Genere</label>
+                <input type="text" class="form-control mb-3" name="genre" id="genre">
+                <label class="form-label" for="year">Anno</label>
+                <input type="number" class="form-control mb-3" name="year" id="year">
 
-                <button class="btn btn-primary" type="submit">Invia</button>
+                <button class="btn btn-primary my-3" type="submit">Invia</button>
             </form>
         </div>
 
