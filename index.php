@@ -25,32 +25,48 @@ $disks = json_decode($json_text, true);
 
 <section>
     <div class="container mt-4">
-<h1>I tuoi dischi:</h1>
+        <h1>I tuoi dischi:</h1>
 
-<hr>
+        <hr>
 
-<div class="row row-cols-4 gy-5 text-center mt-3">
-<?php
+        <div class="row row-cols-4 gy-5 text-center mt-3">
+        <?php
 
-    foreach($disks as $disk) {
+            foreach($disks as $disk) {
 
-        echo '<div class="col">
-                <div class="card text-bg-dark" style="width: 18rem;">
-                <figure class="p-4 m-0">
-                <img src=' . $disk['img'] . ' class="card-img-top border border-white border-2"  alt="...">
-                </figure>
-                <div class="card-body p-2">
-                    <p class="card-text fs-5 fw-bold m-2">' . $disk['titolo'] . '</p>
-                     <p class="card-text m-1">' . $disk['artista'] . '</p>
-                    <p class="card-text m-1">' . $disk['anno'] . '</p>
-                </div>
-                </div>
-            </div>';
-  
-};
+                echo '<div class="col">
+                        <div class="card text-bg-dark" style="width: 18rem;">
+                        <figure class="p-4 m-0">
+                        <img src=' . $disk['img'] . ' class="card-img-top border border-white border-2"  alt="...">
+                        </figure>
+                        <div class="card-body p-2">
+                            <p class="card-text fs-5 fw-bold m-2">' . $disk['titolo'] . '</p>
+                            <p class="card-text m-1">' . $disk['artista'] . '</p>
+                            <p class="card-text m-1">' . $disk['anno'] . '</p>
+                        </div>
+                        </div>
+                    </div>';
+        
+        };
 
-?>
-</div>
+        ?>
+        </div>
+
+        <h2 class="mt-5">Aggiugni disco</h2>
+
+        <hr>
+
+        <div class="form-control mt-3">
+            <form action="" method="POST">
+                <input type="text" class="form-control my-3" name="artist">
+                <input type="text" class="form-control my-3">
+                <input type="text" class="form-control my-3">
+                <input type="number" class="form-control my-3">
+
+                <button class="btn btn-primary" type="submit">Invia</button>
+            </form>
+        </div>
+
 
 </div>
 </section>
