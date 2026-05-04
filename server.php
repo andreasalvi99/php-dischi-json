@@ -23,4 +23,13 @@ var_dump($_POST['title']);
 var_dump($_POST['artist']);
 var_dump($_POST['genre']);
 var_dump($_POST['year']);
+
+$disks[] = [
+$_POST['title'],
+$_POST['artist'],
+$_POST['genre'],
+$_POST['year']
+];
+
+var_dump($disks);
 ?>
