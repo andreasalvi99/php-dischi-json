@@ -1,3 +1,16 @@
+<?php 
+
+//^ Ottengo il contenuto del file, diventa stringa
+$json_text = file_get_contents('disks.json');
+
+// var_dump($json_text);
+
+//^ Decodifico in PHP
+$disks = json_decode($json_text, true);
+
+var_dump($disks);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +29,17 @@
 
 <hr>
 
-<?php 
-echo "ciao"
+<ul>
+<?php
+
+    foreach($disks as $disk) {
+        foreach($disk as $key => $value) {
+        echo "<li>$key: $value</li>";
+        }
+};
+
 ?>
+</ul>
 
 </div>
 </section>
