@@ -24,12 +24,12 @@ $disks = json_decode($json_text, true);
 <body>
 
 <section>
-    <div class="container mt-3">
+    <div class="container mt-4">
 <h1>I tuoi dischi:</h1>
 
 <hr>
 
-<div class="row row-cols-4 gy-5 text-center">
+<div class="row row-cols-4 gy-5 text-center mt-3">
 <?php
 
     foreach($disks as $disk) {
