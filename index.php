@@ -35,12 +35,14 @@ $disks = json_decode($json_text, true);
     foreach($disks as $disk) {
 
         echo '<div class="col">
-                <div class="card" style="width: 18rem;">
-                <img src=' . $disk['img'] . ' class="card-img-top  alt="...">
-                <div class="card-body">
-                    <p class="card-text">' . $disk['titolo'] . '</p>
-                     <p class="card-text">' . $disk['artista'] . '</p>
-                    <p class="card-text">' . $disk['anno'] . '</p>
+                <div class="card text-bg-dark" style="width: 18rem;">
+                <figure class="p-4 m-0">
+                <img src=' . $disk['img'] . ' class="card-img-top border border-white border-2"  alt="...">
+                </figure>
+                <div class="card-body p-2">
+                    <p class="card-text fs-5 fw-bold m-2">' . $disk['titolo'] . '</p>
+                     <p class="card-text m-1">' . $disk['artista'] . '</p>
+                    <p class="card-text m-1">' . $disk['anno'] . '</p>
                 </div>
                 </div>
             </div>';
