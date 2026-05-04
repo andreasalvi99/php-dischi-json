@@ -66,6 +66,8 @@ $disks = json_decode($json_text, true);
                 <input type="text" class="form-control mb-3" name="genre" id="genre">
                 <label class="form-label" for="year">Anno</label>
                 <input type="number" class="form-control mb-3" name="year" id="year">
+                <label class="form-label" for="img">URL immagine</label>
+                <input type="text" class="form-control mb-3" name="img" id="img">
 
                 <button class="btn btn-primary my-3" type="submit">Invia</button>
             </form>

@@ -1,1 +1,86 @@
-[{"titolo":"The Dark Side of the Moon","artista":"Pink Floyd","img":".\/img\/thedarksideofthemoon.webp","anno":1973,"genere":"Progressive Rock"},{"titolo":"Thriller","artista":"Michael Jackson","img":".\/img\/thriller.webp","anno":1982,"genere":"Pop"},{"titolo":"Back in Black","artista":"AC\/DC","img":".\/img\/back_in_black.jpg","anno":1980,"genere":"Hard Rock"},{"titolo":"Nevermind","artista":"Nirvana","img":".\/img\/nevermind.webp","anno":1991,"genere":"Grunge"},{"titolo":"The Eminem Show","artista":"Eminem","img":".\/img\/the_eminem_show.jpg","anno":2002,"genere":"Hip Hop"},{"titolo":"Random Access Memories","artista":"Daft Punk","img":".\/img\/daft-punk-random-access-memories.webp","anno":2013,"genere":"Electronic"},{"titolo":"21","artista":"Adele","img":".\/img\/21_adele.jpg","anno":2011,"genere":"Soul"},{"titolo":"Abbey Road","artista":"The Beatles","img":".\/img\/abbey_road.webp","anno":1969,"genere":"Rock"},{"titolo":"Born to Die","artista":"Lana Del Rey","img":".\/img\/born_to_die.jpg","anno":2012,"genere":"Pop"},{"titolo":"DAMN.","artista":"Kendrick Lamar","img":".\/img\/damn.jpg","anno":2017,"genere":"Hip Hop"},{"titolo":"ciao","artista":"prova","genere":"rock","anno":2000}]
+[
+    {
+        "titolo": "The Dark Side of the Moon",
+        "artista": "Pink Floyd",
+        "img": ".\/img\/thedarksideofthemoon.webp",
+        "anno": 1973,
+        "genere": "Progressive Rock"
+    },
+    {
+        "titolo": "Thriller",
+        "artista": "Michael Jackson",
+        "img": ".\/img\/thriller.webp",
+        "anno": 1982,
+        "genere": "Pop"
+    },
+    {
+        "titolo": "Back in Black",
+        "artista": "AC\/DC",
+        "img": ".\/img\/back_in_black.jpg",
+        "anno": 1980,
+        "genere": "Hard Rock"
+    },
+    {
+        "titolo": "Nevermind",
+        "artista": "Nirvana",
+        "img": ".\/img\/nevermind.webp",
+        "anno": 1991,
+        "genere": "Grunge"
+    },
+    {
+        "titolo": "The Eminem Show",
+        "artista": "Eminem",
+        "img": ".\/img\/the_eminem_show.jpg",
+        "anno": 2002,
+        "genere": "Hip Hop"
+    },
+    {
+        "titolo": "Random Access Memories",
+        "artista": "Daft Punk",
+        "img": ".\/img\/daft-punk-random-access-memories.webp",
+        "anno": 2013,
+        "genere": "Electronic"
+    },
+    {
+        "titolo": "21",
+        "artista": "Adele",
+        "img": ".\/img\/21_adele.jpg",
+        "anno": 2011,
+        "genere": "Soul"
+    },
+    {
+        "titolo": "Abbey Road",
+        "artista": "The Beatles",
+        "img": ".\/img\/abbey_road.webp",
+        "anno": 1969,
+        "genere": "Rock"
+    },
+    {
+        "titolo": "Born to Die",
+        "artista": "Lana Del Rey",
+        "img": ".\/img\/born_to_die.jpg",
+        "anno": 2012,
+        "genere": "Pop"
+    },
+    {
+        "titolo": "DAMN.",
+        "artista": "Kendrick Lamar",
+        "img": ".\/img\/damn.jpg",
+        "anno": 2017,
+        "genere": "Hip Hop"
+    },
+    {
+        "titolo": "Hollywood's Bleeding",
+        "artista": "Post Malone",
+        "genere": "Alternative hip hop",
+        "anno": 2019,
+        "img": "https:\/\/m.media-amazon.com\/images\/I\/81bm5HqSzPL._UF1000,1000_QL80_.jpg"
+    },
+    {
+        "titolo": "Ticket To My Downfall",
+        "artista": "mgk",
+        "genere": "Pop punk",
+        "anno": 2020,
+        "img": "https:\/\/static.qobuz.com\/images\/covers\/eb\/3e\/r1fbcbgoh3eeb_600.jpg"
+    }
+]
