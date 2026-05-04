@@ -1,0 +1,72 @@
+[
+  {
+    "titolo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "img": "",
+    "anno": 1973,
+    "genere": "Progressive Rock"
+  },
+  {
+    "titolo": "Thriller",
+    "artista": "Michael Jackson",
+    "img": "",
+    "anno": 1982,
+    "genere": "Pop"
+  },
+  {
+    "titolo": "Back in Black",
+    "artista": "AC/DC",
+    "img": "",
+    "anno": 1980,
+    "genere": "Hard Rock"
+  },
+  {
+    "titolo": "Nevermind",
+    "artista": "Nirvana",
+    "img": "",
+    "anno": 1991,
+    "genere": "Grunge"
+  },
+  {
+    "titolo": "The Eminem Show",
+    "artista": "Eminem",
+    "img": "",
+    "anno": 2002,
+    "genere": "Hip Hop"
+  },
+  {
+    "titolo": "Random Access Memories",
+    "artista": "Daft Punk",
+    "img": "",
+    "anno": 2013,
+    "genere": "Electronic"
+  },
+  {
+    "titolo": "21",
+    "artista": "Adele",
+    "img": "",
+    "anno": 2011,
+    "genere": "Soul"
+  },
+  {
+    "titolo": "Abbey Road",
+    "artista": "The Beatles",
+    "img": "",
+    "anno": 1969,
+    "genere": "Rock"
+  },
+  {
+    "titolo": "Born to Die",
+    "artista": "Lana Del Rey",
+    "img": "",
+    "anno": 2012,
+    "genere": "Pop"
+  },
+  {
+    "titolo": "DAMN.",
+    "artista": "Kendrick Lamar",
+    "img": "",
+    "anno": 2017,
+    "genere": "Hip Hop"
+  }
+]
